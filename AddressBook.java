@@ -11,3 +11,10 @@ public class AddressBook {
 		friends = new Contact[10];
 		numfriends = 0;
     }
+public static void manu(){
+	systerm.out.println("1. add a contact");
+	systerm.out.println("2. delete a contact");
+	systerm.out.println("3. print the number of contacts you have");
+	systerm.out.println("4. print out all contact info");\
+	systerm.out.println("5. quit");
+}
