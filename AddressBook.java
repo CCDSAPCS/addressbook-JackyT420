@@ -50,13 +50,13 @@ public static void menu(){
        AddressBook book = new AddressBook();
         if(choice == "1"){
 		
-            System.out.println("Imput name:");
+            System.out.println("Input name:");
             String name = s.next();
-            System.out.println("Imput age: ");
+            System.out.println("Input age: ");
             int age = s.nextInt();
-            System.out.println("Imput phone number(no dashes)");
+            System.out.println("Input phone number(no dashes)");
             int number = s.nextInt();
-            System.out.println("Imput Birthday");
+            System.out.println("Input Birthday");
             int bday = s.nextInt();
           
             Contact c = new Contact(name, age, number, bday);
