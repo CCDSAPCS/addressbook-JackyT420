@@ -36,10 +36,10 @@ public class AddressBook {
 		    }
     
 			    }
-public static void manu(){
-	systerm.out.println("1. add a contact");
-	systerm.out.println("2. delete a contact");
-	systerm.out.println("3. print the number of contacts you have");
-	systerm.out.println("4. print out all contact info");\
-	systerm.out.println("5. quit");
+public static void menu(){
+	system.out.println("1. add a contact");
+	system.out.println("2. delete a contact");
+	system.out.println("3. print the number of contacts you have");
+	system.out.println("4. print out all contact info");
+	system.out.println("5. quit");
 }
