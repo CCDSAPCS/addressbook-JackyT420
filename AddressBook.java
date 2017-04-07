@@ -42,4 +42,23 @@ public static void menu(){
 	system.out.println("3. print the number of contacts you have");
 	system.out.println("4. print out all contact info");
 	system.out.println("5. quit");
-}
+	
+	
+ public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        String choice = s.next();
+       AddressBook book = new AddressBook();
+        if(choice == "1"){
+		
+            System.out.println("Imput name:");
+            String name = s.next();
+            System.out.println("Imput age: ");
+            int age = s.nextInt();
+            System.out.println("Imput phone number(no dashes)");
+            int number = s.nextInt();
+            System.out.println("Imput Birthday");
+            int bday = s.nextInt();
+          
+            Contact c = new Contact(name, age, number, bday);
+            book.addContact(c);
+        }
